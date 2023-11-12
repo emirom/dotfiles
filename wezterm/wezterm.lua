@@ -82,6 +82,8 @@ return {
     { key = "'", mods = "CMD", action = wezterm.action({ SplitHorizontal = { domain = "CurrentPaneDomain" } }) },
     { key = "z", mods = "CMD", action = "TogglePaneZoomState" },
     { key = "x", mods = "CMD", action = wezterm.action({ CloseCurrentPane = { confirm = true } }) },
+    { key = "b", mods = "CMD", action=wezterm.action({SplitHorizontal={ domain="CurrentPaneDomain",  args = {'broot'} } }) },
+
 
     -- Pane Sections
     -- Pane Navigates
