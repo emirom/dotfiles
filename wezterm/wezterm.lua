@@ -109,8 +109,8 @@ return {
 
     { key = "T", mods = "CMD|SHIFT", action = "ShowTabNavigator" },
 
-    { key = "L", mods = "CMD|SHIFT", action = "ShowLauncher" },
-
+    { key = "l", mods = "CMD|CTRL", action = "ShowLauncher" },
+    
     { key = "f", mods = "CMD|CTRL", action = "ToggleFullScreen" },
 
     { key = "N", mods = "CMD|SHIFT", action = "SpawnWindow" },
